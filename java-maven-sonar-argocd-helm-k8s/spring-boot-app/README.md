@@ -65,6 +65,9 @@ chown -R sonarqube:sonarqube /opt/sonarqube
 chmod -R 775 /opt/sonarqube
 cd /opt/sonarqube/bin/linux-x86-64
 ./sonar.sh start
+
+add the user and switch to sonaqube user 
+ sudo su - sonarqube
 ```
 
 Hurray !! Now you can access the `SonarQube Server` on `http://<ip-address>:9000` 
